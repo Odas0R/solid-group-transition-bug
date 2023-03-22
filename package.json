@@ -1,0 +1,22 @@
+{
+  "name": "wow",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro build && wrangler pages dev ./dist --port 3000",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^6.2.2",
+    "@astrojs/solid-js": "^2.1.0",
+    "astro": "^2.1.5",
+    "solid-js": "^1.6.15",
+    "solid-transition-group": "^0.2.0"
+  },
+  "devDependencies": {
+    "wrangler": "^2.13.0"
+  }
+}

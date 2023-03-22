@@ -1,0 +1,13 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { SolidTransition } from '../../components/SolidTransition.tsx';
+
+export const prerender = false;
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<h1>SSR</h1>
+		<SolidTransition client:load />
+	</main>
+</Layout>
